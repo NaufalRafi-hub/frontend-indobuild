@@ -15,7 +15,17 @@ export default [
         date: '1 Aug 2019 - 3 Aug 2019 | 11:00 - 17:00',
         place: 'Indobild, Bluegreen Office SBI, 8th Floor',
         details : [
-
+            {
+                head: 'Indonesia Aeropress Coffee and Barista Championship 2019',
+                subhead: 'By indobild.com',
+                hari: 'Friday, 1 August 2019',
+                time: '10:00 WIB- 18:00 WIB',
+                lokasi : 'Jiexpo, Hall C',
+                detLoc : 'RW.10, Pademangan Tim., Kec. Pademangan, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 14410',
+                ticket: 'Free',
+                detTic: 'Only 100 tickets left',
+                about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            }
         ]
     },
     {

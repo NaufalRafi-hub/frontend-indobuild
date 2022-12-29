@@ -2,6 +2,7 @@ import React from 'react'
 import './body.css'
 import Data from './data'
 import { Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Body = () => {
   return (
@@ -11,6 +12,7 @@ const Body = () => {
             <h1 className='judul'>Upcoming Event</h1>
             <div className='outer-wrap-card'>
             {Data.map((data, index) => (
+                <Link to={`Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
                 <div className='wrap-card rounded-3'>
                     <img src={data.img}></img>
                     <div className='cont-card'>
@@ -19,6 +21,7 @@ const Body = () => {
                         <h3 className='h3'>{data.place}</h3>
                     </div>
                 </div>
+                </Link>
             ))}
             </div>
         </div>

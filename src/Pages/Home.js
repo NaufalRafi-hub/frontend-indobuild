@@ -7,14 +7,14 @@ import Nav from '../Component/Nav'
 const Home = () => {
   return (
     <>
-        <Nav />
+        {/* <Nav /> */}
         <section className='bg-header'>
             <Header />
         </section>
         <section>
             <Body />
         </section>
-        <Footer />
+        {/* <Footer /> */}
     </>
 
   )
