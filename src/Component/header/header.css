@@ -1,0 +1,45 @@
+.dropdown {
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 30px;
+}
+.child-dd {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.child-dd > img{
+    width: 13.77px;
+    height: 14px;
+    color: #93999D !important;
+}
+#dropdown-basic-button{
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px !important;
+}
+.dropdown-toggle::after {
+    /* background-image: url(../../Image/calendar.png);
+    padding: 5px; */
+    margin-left: 100px;
+}
+.btn-primary {
+    --bs-btn-color: #93999D;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #f2f5f8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn {
+    border: var(--bs-btn-border-width) solid #93999D;
+}

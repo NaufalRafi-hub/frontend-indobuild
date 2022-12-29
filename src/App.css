@@ -1,7 +1,52 @@
 *{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
 
 .bg-header {
-  background-image: url();
+  background-image: url(./Image/header.png);
+}
+.blue {
+  color: #518FEC;
+}
+/* .purple {
+  color: #AC58D4;
+} */
+
+.orange {
+  color: #FF843E;
+}
+.judul {
+  color: #334553;
+  font-size: 24px;
+  font-weight: 700;
+}
+.h1 {
+  color: #334553;
+  font-size: 16px;
+  font-weight: 700;
+}
+.h2 {
+  color: #334553;
+  font-size: 16px;
+  font-weight: 400;
+}
+.h3 {
+  color: #93999D;
+  font-size: 16px;
+  font-weight: 400;
+}
+.p {
+  color: rgba(51, 51, 51, 0.75);
+  font-size: 13px;
+  font-weight: 700;
+}
+.px-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container-cust {
+  padding-left: 50px;
+  padding-right: 50px;
 }
