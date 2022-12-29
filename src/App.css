@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
@@ -41,6 +42,14 @@
   color: rgba(51, 51, 51, 0.75);
   font-size: 13px;
   font-weight: 700;
+}
+.footz {
+  color: #93999D;
+  font-size: 13px;
+  font-weight: 400;
+}
+.mt-50 {
+  margin-top: 50px;
 }
 .px-50 {
   padding-top: 50px;

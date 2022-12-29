@@ -1,0 +1,23 @@
+.outer-wrap-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 24px; */
+
+    /* max-width: 400px; */
+    /* width: auto; */
+}
+.wrap-card {
+    width: 378px;
+    /* border-radius: 10px; */
+    max-height: 310px;
+    margin-top: 30px;
+    margin-right: 25px;
+    border: 1px solid #E6E6E6;
+}
+
+.cont-card {
+    padding: 20px 0px 20px 20px;
+}
+.wrap-card > img {
+    border-radius: 8px 8px 0 0;
+}

@@ -3,8 +3,8 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='d-flex justify-content-center text-align-center p-4'>
-        <p>© 2022 PT. Buana Artha Indopratama</p>
+    <div className='mt-50 foot d-flex justify-content-center text-align-center p-4'>
+        <p className='footz'>© 2022 PT. Buana Artha Indopratama</p>
     </div>
   )
 }
