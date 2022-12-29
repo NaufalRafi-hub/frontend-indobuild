@@ -7,7 +7,7 @@ const Organizer = (props) => {
     const { data } = props;
   return (
     <Container>
-        <div className='mt-50'>
+        <div className='container-cust mt-50'>
             <h1 className='judul'>Organizer Profile</h1>
             <div className='mt-20 row'>
                 <div className='col-md-2'>

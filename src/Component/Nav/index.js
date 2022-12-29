@@ -11,7 +11,7 @@ const Navs = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container fluid>
-        <Navbar.Brand href="#home"><img src={Logo} width='122' ></img></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={Logo} width='122' ></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -26,7 +26,7 @@ const Navs = () => {
           <Nav className='ms-auto'>
           <Nav.Link className='mr-30 d-flex align-items-center' href="#pricing">Explore Event</Nav.Link>
             <Nav.Link className='mr-30 d-flex align-items-center' href="#">Help</Nav.Link>
-            <div className='line mr-30'></div>
+            <div className='line my-auto mr-30'></div>
             <Nav.Link href="#deets">
               <Button className='btn-event'>Create Event</Button>
             </Nav.Link>

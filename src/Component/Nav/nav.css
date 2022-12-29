@@ -17,7 +17,8 @@
     gap: 30px
 }
 .line {
-    border: 1px solid #E6E6E6;;
+    border: 1px solid #E6E6E6;
+    height: 30px;
 }
 .btn-event {
     color: #FFFFFF;

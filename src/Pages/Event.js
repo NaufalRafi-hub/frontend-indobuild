@@ -18,14 +18,18 @@ const Event = () => {
       <section>
         <div className='bg-blur'>
           <Container>
-            <Head data={Data[id]}/>
-            <Info data={Data[id]}/>
+            <div className='mt-50 wrap-ev'>
+            {/* <section className='bg-event'> */}
+              <Head data={Data[id]}/>
+              <Info data={Data[id]}/>
+            {/* </section> */}
             <div className=' mt-50 dashed'></div>
             <About data={Data[id]}/>
             <div className=' mt-50 dashed'></div>
             <Organizer data={Data[id]}/>
             <div className=' mt-50 dashed'></div>
             <Related data={Data[id]}/>
+            </div>
           </Container>
         </div>
       </section>

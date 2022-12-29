@@ -8,7 +8,7 @@ const Info = (props) => {
     const { data } = props;
   return (
     <Container>
-        <div className='row mt-50'>
+        <div className='row pl-50 mt-50'>
             <div className='col-md'>
                 <div className='d-flex gap-3'>
                     <img src={Calend} width='24' height='27'></img>

@@ -8,6 +8,15 @@
 .bg-header {
   background-image: url(./Image/header.png);
 }
+.bg-blur{
+  /* background-image: url(./Image/bg-event.png); */
+  /* height: 640px; */
+}
+.wrap-ev {
+  background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 0px 0px 4px 4px;
+}
 .blue {
   color: #518FEC;
 }
@@ -22,6 +31,7 @@
   color: #518FEC;
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
 }
 .judul {
   color: #334553;
@@ -88,4 +98,7 @@
 .dotted {
   border: 1px dashed #E6E6E6;
   height: 129px;
+}
+.pl-50 {
+  padding-left: 50px;
 }

@@ -8,11 +8,11 @@ const Head = (props) => {
     const { data } = props;
   return (
     <Container>
-        <div className='row mt-70 wrap-head'>
+        <div className='row wrap-head'>
             <div className='p-0 col-md-8'>
                 <img className='img-head' src={data.img}></img>
             </div>
-            <div className='cont-head-left col-md p-4 justify-content-center'>
+            <div className='cont-head-left col-md'>
                 <h1 className='judul'>{data.details[0].head}</h1>
                 <h3 className='h3'>{data.details[0].subhead}</h3>
                 <div className='d-flex gap-4 mt-30'>

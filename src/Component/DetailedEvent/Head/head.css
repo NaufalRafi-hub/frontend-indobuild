@@ -6,6 +6,11 @@
 }
 .cont-head-left {
     background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 360px;
+
 }
 .btn-tic {
     margin-top: 75px;
