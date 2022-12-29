@@ -25,12 +25,12 @@ const Info = (props) => {
                     <span>
                     <h2 className='h2'>{data.details[0].lokasi}</h2>
                     <h3 className='h3'>{data.details[0].detLoc}</h3>
-                    <p className='map blue'>Show Map</p>
+                    <p className='more'>Show Map</p>
                     </span>
-                    <div className='dotted'></div>
+                    <div className='dotted ms-auto'></div>
                 </div>
             </div>
-            <div className='col-md'>
+            <div className='col-md p-3'>
             <div className='d-flex gap-3'>
                     <img src={Ticket} width='15' height='27'></img>
                     <span>

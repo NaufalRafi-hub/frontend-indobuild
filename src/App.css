@@ -18,6 +18,11 @@
 .orange {
   color: #FF843E;
 }
+.more {
+  color: #518FEC;
+  font-size: 16px;
+  font-weight: 400;
+}
 .judul {
   color: #334553;
   font-size: 24px;
@@ -48,9 +53,6 @@
   font-size: 13px;
   font-weight: 400;
 }
-.mt-50 {
-  margin-top: 50px;
-}
 .px-50 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -62,9 +64,25 @@
 .mr-30 {
   margin-right: 30px;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
 .mt-30 {
   margin-top: 30px;
 }
+.mt-50 {
+  margin-top: 50px;
+}
 .mt-70 {
   margin-top: 70px;
+}
+.dashed {
+  border: 1px dashed #E6E6E6;
+}
+.dotted {
+  border: 1px dashed #E6E6E6;
+  height: 129px;
 }

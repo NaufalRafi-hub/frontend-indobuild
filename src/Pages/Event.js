@@ -20,8 +20,11 @@ const Event = () => {
           <Container>
             <Head data={Data[id]}/>
             <Info data={Data[id]}/>
+            <div className=' mt-50 dashed'></div>
             <About data={Data[id]}/>
+            <div className=' mt-50 dashed'></div>
             <Organizer data={Data[id]}/>
+            <div className=' mt-50 dashed'></div>
             <Related data={Data[id]}/>
           </Container>
         </div>
