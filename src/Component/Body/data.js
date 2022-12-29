@@ -7,6 +7,8 @@ import Ballpark from '../../Image/ballpark.png'
 import Planethome from '../../Image/planethome.png'
 import Tedx from '../../Image/tedx.png'
 import Morcheeba from '../../Image/morcheeba.png'
+import Bai from '../../Image/bai.png'
+
 
 export default [
     {
@@ -24,7 +26,10 @@ export default [
                 detLoc : 'RW.10, Pademangan Tim., Kec. Pademangan, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 14410',
                 ticket: 'Free',
                 detTic: 'Only 100 tickets left',
-                about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                organizerImg: Bai,
+                organizerName: 'PT Buana Artha Indopratama',
+                organizerDet:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat…'
             }
         ]
     },
