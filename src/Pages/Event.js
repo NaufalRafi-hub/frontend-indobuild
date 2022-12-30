@@ -7,6 +7,7 @@ import Organizer from '../Component/DetailedEvent/Organizer';
 import Related from '../Component/DetailedEvent/Related';
 import Data from '../Component/Body/data'
 import { useParams } from "react-router-dom";
+import BgEv from '../Image/bg-event.png'
 
 const Event = () => {
   const { title, id } = new useParams();
@@ -17,19 +18,20 @@ const Event = () => {
     <>
       <section>
         <div className='bg-blur'>
-          <img></img>
+          <img className='bg-ev' src={BgEv}></img>
+          {/* <div className='bg-ev'></div> */}
           <Container>
-            <div className='mt-50 wrap-ev'>
+            <div className='wrap-ev'>
             {/* <section className='bg-event'> */}
               <Head data={Data[id]}/>
               <Info data={Data[id]}/>
-            {/* </section> */}
-            <div className=' mt-50 dashed'></div>
-            <About data={Data[id]}/>
-            <div className=' mt-50 dashed'></div>
-            <Organizer data={Data[id]}/>
-            <div className=' mt-50 dashed'></div>
-            <Related data={Data[id]}/>
+              {/* </section> */}
+              <div className=' mt-50 dashed'></div>
+              <About data={Data[id]}/>
+              <div className=' mt-50 dashed'></div>
+              <Organizer data={Data[id]}/>
+              <div className=' mt-50 dashed'></div>
+              <Related data={Data[id]}/>
             </div>
           </Container>
         </div>
