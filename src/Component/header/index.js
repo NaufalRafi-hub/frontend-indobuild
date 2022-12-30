@@ -64,7 +64,7 @@ const Header = () => {
         ]
       };
   return (
-    <Container>
+    <Container  fluid>
         <div className='px-50 wrap-header'>
             <div className='row'>
                 <div className='card px-50 container-cust col-md-4'>

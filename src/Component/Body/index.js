@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Body = () => {
   return (
-    <Container>
+    <Container fluid>
     {/* // <div className='container-cust'> */}
         <div className='wrap-body mt-50'>
             <h1 className='judul'>Upcoming Event</h1>
@@ -14,7 +14,7 @@ const Body = () => {
             {Data.map((data, index) => ( 
                 <Link to={`Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
                 <div className='wrap-card rounded-3'>
-                    <img src={data.img}></img>
+                    <img className='img-cov'src={data.img}></img>
                     <img className='img-lv' src={data.imgLov}></img>
                     <div className='cont-card'>
                         <h1 className='h1'>{data.title}</h1>
