@@ -8,7 +8,7 @@ const Body = () => {
   return (
     <Container fluid>
     {/* // <div className='container-cust'> */}
-        <div className='wrap-body mt-50'>
+        <div className='wrap-body mt-50 container-cust'>
             <h1 className='judul'>Upcoming Event</h1>
             <div className='outer-wrap-card'>
             {Data.map((data, index) => ( 

@@ -64,10 +64,10 @@ const Header = () => {
         ]
       };
   return (
-    <Container  fluid>
-        <div className='px-50 wrap-header'>
+    <Container fluid>
+        <div className='container-cust px-50 wrap-header'>
             <div className='row'>
-                <div className='card px-50 container-cust col-md-4'>
+                <div className='card px-50 container-cust col-lg-4'>
                     <h1 className='judul'>
                         Hey! Looking for an Interesting event? Let us help you find it
                     </h1>
@@ -120,7 +120,7 @@ const Header = () => {
                     <div className='dashed mt-30'></div>
                     <Button className='mt-30 btn-lets'>Let's Go!</Button>
                 </div>
-                <div className=' wrap-slid-header col-md'>
+                <div className=' wrap-slid-header col-lg'>
                     <h1 className='judul high'>Our Highlighted Event</h1>
                     <Slider className='slid-head' {...settings}>
                         {/* <div>
@@ -128,8 +128,8 @@ const Header = () => {
                         </div> */}
                         {DataSlide.map((data, index) => (
                             <Link to={`..Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
-                            <div className='wrap-card rounded-3'>
-                                <img src={data.img}></img>
+                            <div className='wrap-carda rounded-3'>
+                                <img className='img-cov' src={data.img}></img>
                                 <img className='img-lv' src={data.imgLov}></img>
                                 <div className='cont-card'>
                                     <h1 className='h1'>{data.title}</h1>

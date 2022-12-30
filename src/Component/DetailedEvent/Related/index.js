@@ -47,7 +47,7 @@ const Related = (props) => {
             {DataSlid.map((data, index) => (
                 <Link to={`..Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
                 <div className='wrap-card rounded-3'>
-                    <img src={data.img}></img>
+                    <img className='img-cov'src={data.img}></img>
                     <div className='row cont-card2'>
                         <div className='col-10 cont-left-card'>
                             <h1 className='h1'>{data.title}</h1>
