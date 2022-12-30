@@ -17,6 +17,7 @@ const Event = () => {
     <>
       <section>
         <div className='bg-blur'>
+          <img></img>
           <Container>
             <div className='mt-50 wrap-ev'>
             {/* <section className='bg-event'> */}

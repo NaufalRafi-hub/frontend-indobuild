@@ -23,3 +23,6 @@
     padding-left: 86px;
     padding-right: 86px;
 }
+.slick-prev::before, .slick-next::before {
+    color:#FF843E;
+}
