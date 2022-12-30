@@ -3,10 +3,12 @@ import { Button, Container } from 'react-bootstrap'
 import './header.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import Calendar from '../../Image/calendar.png'
+import Calendar from '../../Image/cal.png'
 import Slider from "react-slick";
 import DataSlide from '../Body/data';
 import { Link } from 'react-router-dom'
+import Arr from '../../Image/Path.png'
+import Search from '../../Image/Shape.png'
 
 const Header = () => {
     const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
@@ -74,19 +76,45 @@ const Header = () => {
                         First, choose a category that you want.
                         </p>
                         <div className='child-dd'>
+                        <button class="dropbtn footz">
+                            {/* <span className='footz sp-dd'> */}
+                                Category Event
+                                <img className='img-ar 'src={Arr} width='10' height='6'></img>
+                            {/* </span> */}
+                        </button>
+                            <div class="dropdown-content">
+                            <a href="#">Event 1</a>
+                            <a href="#">Event 2</a>
+                            <a href="#">Event 3</a>
+                            </div>
                         </div>
                     </div>
                     <div className='dropdown'>
                         <p className='p'>
                         Where do you want to go?
                         </p>
+                        <div className=' wrap-search-head d-flex align-items-center'>
+                            <img className='imgSearch'src={Search}></img>
+                            <input className='search-bar-head'type="text" placeholder="Search Location"></input>
+                        </div>
                     </div>
                     <div className='dropdown'>
                         <p className='p'>
                         Fill up your free time!
                         </p>
                         <div className='child-dd'>
-                            {/* <img src={Calendar}></img> */}
+                        <button class="dropbtn footz">
+                            {/* <span className='footz sp-dd'> */}
+                                <img className='img-cal 'src={Calendar} width='13.77' height='14'></img>
+                                Pick a Date!
+                                <img className='img-ar 'src={Arr} width='10' height='6'></img>
+                            {/* </span> */}
+                        </button>
+                            <div class="dropdown-content">
+                            <a href="#">Event 1</a>
+                            <a href="#">Event 2</a>
+                            <a href="#">Event 3</a>
+                            </div>
                         </div>
                     </div>
                     <div className='dashed mt-30'></div>
