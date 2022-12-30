@@ -8,6 +8,8 @@
  @import "~slick-carousel/slick/slick-theme.css";
 .bg-header {
   background-image: url(./Image/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bg-blur{
   /* background-image: url(./Image/bg-event.png); */

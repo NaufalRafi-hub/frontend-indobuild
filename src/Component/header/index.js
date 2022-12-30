@@ -4,6 +4,9 @@ import './header.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Calendar from '../../Image/calendar.png'
+import Slider from "react-slick";
+import DataSlide from '../Body/data';
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
@@ -24,9 +27,43 @@ const Header = () => {
        
         
       ));
+      var settings = {
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1.5,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
   return (
     // <Container>
-        <div className=' container-cust px-50'>
+        <div className=' container-cust px-50 wrap-header'>
             <div className='row'>
                 <div className='card px-50 container-cust col-md-4'>
                     <h1 className='judul'>
@@ -64,8 +101,25 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md'>
-
+                <div className=' wrap-slid-header col-md'>
+                    <h1 className='judul high'>Our Highlighted Event</h1>
+                    <Slider className='slid-head' {...settings}>
+                        {/* <div>
+                            <h3>1</h3>
+                        </div> */}
+                        {DataSlide.map((data, index) => (
+                            <Link to={`..Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
+                            <div className='wrap-card rounded-3'>
+                                <img src={data.img}></img>
+                                <div className='cont-card'>
+                                    <h1 className='h1'>{data.title}</h1>
+                                    <h2 className='h2'>{data.date}</h2>
+                                    <h3 className='h3'>{data.place}</h3>
+                                </div>
+                            </div>
+                            </Link>
+                        ))}
+                    </Slider>
                 </div>
             </div>
         </div>
