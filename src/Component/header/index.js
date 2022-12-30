@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Button, Container } from 'react-bootstrap'
 import './header.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -32,38 +32,38 @@ const Header = () => {
         infinite: false,
         speed: 500,
         slidesToShow: 1.5,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: false,
             }
           },
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+            //   initialSlide: 2
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
           }
         ]
       };
   return (
-    // <Container>
-        <div className=' container-cust px-50 wrap-header'>
+    <Container>
+        <div className='px-50 wrap-header'>
             <div className='row'>
                 <div className='card px-50 container-cust col-md-4'>
                     <h1 className='judul'>
@@ -74,11 +74,6 @@ const Header = () => {
                         First, choose a category that you want.
                         </p>
                         <div className='child-dd'>
-                            <DropdownButton id="dropdown-basic-button" title="Category Event">
-                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                            </DropdownButton>
                         </div>
                     </div>
                     <div className='dropdown'>
@@ -91,15 +86,11 @@ const Header = () => {
                         Fill up your free time!
                         </p>
                         <div className='child-dd'>
-                            <img src={Calendar}></img>
-                            <DropdownButton id="dropdown-basic-button" title="Pick a Date!">
-                                
-                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                            </DropdownButton>
+                            {/* <img src={Calendar}></img> */}
                         </div>
                     </div>
+                    <div className='dashed mt-30'></div>
+                    <Button className='mt-30 btn-lets'>Let's Go!</Button>
                 </div>
                 <div className=' wrap-slid-header col-md'>
                     <h1 className='judul high'>Our Highlighted Event</h1>
@@ -124,7 +115,7 @@ const Header = () => {
             </div>
         </div>
 
-    // </Container>
+    </Container>
   )
 }
 
