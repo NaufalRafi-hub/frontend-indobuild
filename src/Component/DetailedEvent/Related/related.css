@@ -1,6 +1,15 @@
 .cont-card2 {
     padding: 20px
 }
+.img-lv2 {
+    margin-top: 30px;
+}
 .cont-left-card {
-    width: 81.3% !important;
+    width: 86.3% !important;
+}
+.slid-rel > .slick-arrow {
+    margin-top: 50px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    z-index: 999;
 }

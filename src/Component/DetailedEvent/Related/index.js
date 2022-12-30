@@ -12,34 +12,27 @@ const Related = (props) => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 4,
+        slidesToShow: 2.5,
+        slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
-              dots: true
+              // dots: true
             }
           },
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              // initialSlide: 2
             }
           },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
         ]
       };
   return (
@@ -47,7 +40,7 @@ const Related = (props) => {
         <div className='container-cust mt-50 mb-50'>
             <h1 className='judul'>Related Events</h1>
             <div>
-            <Slider {...settings}>
+            <Slider className='slid-rel' {...settings}>
             {/* <div>
                 <h3>1</h3>
             </div> */}
@@ -62,8 +55,8 @@ const Related = (props) => {
                             <h3 className='h3'>{data.place}</h3>
                            
                         </div>
-                        <div className='col'>
-                            <img className='img-lv2' src={data.imgLov}></img>
+                        <div className='d-flex col justify-content-center'>
+                            <img className='img-lv2' src={data.imgLov2} width='20' height='19'></img>
                         </div>
                     </div>
                 </div>

@@ -10,12 +10,15 @@ import Morcheeba from '../../Image/morcheeba.png'
 import Bai from '../../Image/bai.png'
 import LoveR from '../../Image/ov.png'
 import LoveL from '../../Image/ov2.png'
+import LoveR2 from '../../Image/love2.png'
+import LoveL2 from '../../Image/love.png'
 
 
 export default [
     {
         img: Coffee,
         imgLov: LoveR,
+        imgLov2: LoveR2,
         title: 'Coffee Journey 2019',
         date: '1 Aug 2019 - 3 Aug 2019 | 11:00 - 17:00',
         place: 'Indobild, Bluegreen Office SBI, 8th Floor',
@@ -39,6 +42,7 @@ export default [
     {
         img: Esl,
         imgLov: LoveL,
+        imgLov2: LoveL2,
         title: 'ESL Indonesia Championship Season 2 - Dota 2 Finals',
         date: 'Sun, 15 Sep 2019 | 10:00 AM - 08:00 PM WIB',
         place: 'Tennis Indoor Stadium, Jl. Pintu Satu Senaya..',
@@ -49,6 +53,7 @@ export default [
     {
         img: Binance,
         imgLov: LoveL,
+        imgLov2: LoveL2,
         title: 'Binance Super Meetup Indonesia',
         date: 'Sat, 14 Sep 2019 | 04:00 PM - 06:00 PM WIB',
         place: 'Sheraton Grand Jakarta Gandaria City Hotel..',
@@ -59,6 +64,7 @@ export default [
     {
         img: Fpci,
         imgLov: LoveR,
+        imgLov2: LoveR2,
         title: 'Indonesia-Korea Conference 2019',
         date: 'Wed, 18 Sep 2019 | 08:00 AM - 05:00 AM WIB',
         place: 'Soehanna Hall, Kec. Kby. Baru, DKI Jakarta',
@@ -69,6 +75,7 @@ export default [
     {
         img: Iyia,
         imgLov: LoveR,
+        imgLov2: LoveR2,
         title: 'The 6th International Young Inbestors Award',
         date: '9 Oct 2019 - 12 OCT 2019 | 08:00 PM WIB',
         place: 'Taman Mini INdonesia Indah, Jl. Raya Taman..',
@@ -79,6 +86,7 @@ export default [
     {
         img: Ballpark,
         imgLov: LoveL,
+        imgLov2: LoveL2,
         title: 'Opera at the Ballpark General Admission',
         date: 'Sat, 21 Sep 2019 | 7:30 PM - 10:30 PM PDT',
         place: 'Oracle Park, 24 Willie Mays Plaza, San Fransis..',
@@ -89,6 +97,7 @@ export default [
     {
         img: Planethome,
         imgLov: LoveL,
+        imgLov2: LoveL2,
         title: 'PLANET HOME 2019 - VILLAGE',
         date: '13 Sep 2019 - 15 Sep 2019 | 05:00 PM PDT',
         place: 'Palace of Fine Arts, 3601 Lyon Street, San Fra..',
@@ -99,6 +108,7 @@ export default [
     {
         img: Tedx,
         imgLov: LoveL,
+        imgLov2: LoveL2,
         title: 'TEDxSanFransisco : Dare To Know',
         date: 'Thu, 3 Oct 2019 | 09:00 - 05:30 PM PDT',
         place: 'Herbst Theatre, 401 Van Ness Avenue, San Fr..',
@@ -109,6 +119,7 @@ export default [
     {
         img: Morcheeba,
         imgLov: LoveR,
+        imgLov2: LoveR2,
         title: 'Morcheeba at The Midway',
         date: '11 Aug 2019 - 12 Aug 2019 | 09:00 & 14:00',
         place: 'The Midway, 900 Marin St, San Fransisco',
