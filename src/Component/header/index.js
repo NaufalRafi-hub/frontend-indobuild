@@ -130,6 +130,7 @@ const Header = () => {
                             <Link to={`..Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
                             <div className='wrap-card rounded-3'>
                                 <img src={data.img}></img>
+                                <img className='img-lv' src={data.imgLov}></img>
                                 <div className='cont-card'>
                                     <h1 className='h1'>{data.title}</h1>
                                     <h2 className='h2'>{data.date}</h2>

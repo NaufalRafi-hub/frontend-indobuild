@@ -1,7 +1,3 @@
-.wrap-header {
-    /* height: 100%; */
-    /* height: 649px; */
-}
 .card {
     display: flex;
     flex-direction: column;
@@ -154,8 +150,7 @@
     border: 0;
     width: 539px;
     height: 40px;
-    color: #93999D !important;
-    font-size: 13px;
+    font-size: 13px; 
     font-weight: 400;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

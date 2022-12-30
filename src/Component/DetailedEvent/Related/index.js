@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
 import DataSlid from '../../Body/data';
 import { Link } from 'react-router-dom'
+import './related.css'
 
 
 const Related = (props) => {
@@ -54,10 +55,16 @@ const Related = (props) => {
                 <Link to={`..Detailed-Event/${data.title.replaceAll(" ", "-")}/${index}`}>
                 <div className='wrap-card rounded-3'>
                     <img src={data.img}></img>
-                    <div className='cont-card'>
-                        <h1 className='h1'>{data.title}</h1>
-                        <h2 className='h2'>{data.date}</h2>
-                        <h3 className='h3'>{data.place}</h3>
+                    <div className='row cont-card2'>
+                        <div className='col-10 cont-left-card'>
+                            <h1 className='h1'>{data.title}</h1>
+                            <h2 className='h2'>{data.date}</h2>
+                            <h3 className='h3'>{data.place}</h3>
+                           
+                        </div>
+                        <div className='col'>
+                            <img className='img-lv2' src={data.imgLov}></img>
+                        </div>
                     </div>
                 </div>
                 </Link>
